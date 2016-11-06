@@ -4,7 +4,153 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+  padding: 0;
+ 
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+header {
+  min-height: 400px;
+  background-image: url('../img/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
 
- html {
-     color: green;
- }
+#social {
+  background: white;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+}
+#social:hover {
+  width: 250px;
+}
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.headshot {
+  width: 150px;
+  align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 25px;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+li a:hover {
+  background-color: green;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: arial;
+  font-size: 50px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 25px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  color: green;
+  margin-left: 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.download-button {
+  font-family: arial;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  max-width: 150px;
+  position: center;
+}
+
+h3 {
+  font-family: arial;
+  color: blue;
+  font-size: 20px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.lead {
+  font-family: arial;
+  color: white;
+  background-color: blue;
+  font-size: 25px;
+  padding: 10px;
+  margin: 25px;
+  float: left;
+  text-align: center;
+  float: center;
+}
+
+footer {
+  margin-top: 60px;
+  font-family: arial;
+  color: white;
+  background-color: slategray;
+  padding: 10px;
+  margin: 25px;
+  text-align: center;
+}
+
+.main-nav li {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}
